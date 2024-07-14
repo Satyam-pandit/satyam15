@@ -1,0 +1,136 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #f04e23;
+    color: white;
+    cursor: pointer;
+}
+
+.featured-properties {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-properties .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.property {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.property img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f04e23;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
